@@ -1,0 +1,121 @@
+#heading {
+  width: 100%;
+  text-align: center;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-size: 24pt;
+  font-weight: bold;
+}
+
+.bannerBg {
+  background-image: url('rancidbannerbg.png');
+  background-repeat: repeat-x;
+  height: 50px;
+}
+
+.banner {
+  background-image: url('rancidbanner1.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 50px;
+  margin: 0 40%;
+}
+
+.Content {
+  background-image: url('rottenlargebg.png');
+  background-size: 100% 100px;
+  background-repeat: repeat-x;
+  display: flex;
+  width: 70%;
+  height: 1200px;
+  margin: 0 auto;
+  background-color: #EEEEEE;
+}
+
+.bottomBar, .bottomBar p {
+  width: 70%;
+  margin: 0 auto;
+  background-color: grey;
+  text-align: center;
+}
+
+.col1 {
+  background-image: url('freshlarge.png');
+  background-size: 200px 100px;
+  background-repeat: no-repeat;
+  width: 65%;
+  height: 1200px;
+}
+
+.col1 h1 {
+  text-align: center;
+  color: red;
+  margin-bottom: 40px;
+}
+
+.reviews section {
+  display: inline-block;
+  border: 2px solid grey;
+  border-radius: 10px;
+  background-color: white;
+  width: 95%;
+}
+
+.reviews section img {
+  margin: 10px 0 0 10px;
+  float: left;
+  width: 40px;
+  height: 20px;
+}
+
+.person {
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+}
+
+.person img {
+  height: 32px;
+  width: 32px;
+  margin: 0;
+  padding: 0;
+}
+
+.person p {
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.reviews>p {
+  margin: 0;
+  padding: 0;
+}
+
+.col2 {
+  background: url('bg.png');
+  width: 35%;
+  height: 1200px;
+}
+
+.col2 img {
+  width: 100%
+}
+
+.col2 dt {
+  margin-top: 1em;
+  margin-bottom: 0;
+  font-weight: bold;
+  font-size: 12pt;
+}
+
+.col2 dd, .col2 a {
+  margin: 0;
+  padding: 0 0 0 2.5em;
+  font-size: 10pt;
+  font-weight: bold;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
